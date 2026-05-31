@@ -2,7 +2,7 @@
 
 ## 🌷 Experience Bloom
 
-🔗 https://palakverma-web.github.io/bloom-tasks/
+[Open Bloom](https://palakverma-web.github.io/bloom-tasks/)
 
 A beautiful floral-themed task management application built with HTML, CSS, and Vanilla JavaScript. Bloom helps users organize tasks, manage priorities, track progress, and stay productive through a calm and elegant user experience.
 
