@@ -16,11 +16,11 @@ A beautiful floral-themed task management application built with HTML, CSS, and 
 
 ### Completed Tasks
 
-![Completed Tasks](assets/homepage1.png)
+![Completed Tasks](assets/homepage2.png)
 
 ### Category & Priority Filtering
 
-![Category Filter](assets/homepage2.png)
+![Category Filter](assets/homepage3.png)
 
 ---
 
