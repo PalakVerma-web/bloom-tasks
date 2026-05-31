@@ -1,184 +1,91 @@
-# 🌸 Bloom — Elegant Task Management for Creative Minds
+# 🌸 Bloom — Elegant Task Management App
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-Frontend-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CSS3-Styled-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-</p>
+## 🌷 Experience Bloom
 
-A beautifully designed pastel-themed To-Do application built with **HTML, CSS, and JavaScript**. Bloom helps users organize tasks, track priorities, manage categories, and stay productive through a clean, calming interface.
+🔗 https://palakverma-web.github.io/bloom-tasks/
+
+A beautiful floral-themed task management application built with HTML, CSS, and Vanilla JavaScript. Bloom helps users organize tasks, manage priorities, track progress, and stay productive through a calm and elegant user experience.
 
 ---
 
-# 📸 Preview
+## Preview
 
-## Dashboard
+### Dashboard
 
-![Bloom Dashboard](homepage.png)
+![Dashboard](assets/homepage.png)
 
-## Completed Tasks
+### Completed Tasks
 
-![Completed Tasks](homepage2.png)
+![Completed Tasks](assets/homepage1.png)
 
-## Category & Priority Filtering
+### Category & Priority Filtering
 
-![Category Filter](homepage3.png)
-
----
-
-# ✨ Features
-
-- ✅ Create, edit, complete, and delete tasks
-- 🎯 Priority levels (High, Medium, Low)
-- 📅 Due date management
-- 🏷 Category-based organization
-- 🔍 Real-time filtering and search
-- 📊 Live statistics dashboard
-- 💾 LocalStorage persistence
-- 📱 Responsive design for multiple screen sizes
-- 🌸 Soft pastel UI with a modern aesthetic
+![Category Filter](assets/homepage2.png)
 
 ---
 
-# 🚀 Getting Started
+## Features
 
-## Clone the repository
+* Create, edit, and delete tasks
+* Mark tasks as completed
+* Priority management (High, Medium, Low)
+* Due date tracking
+* Category-based organization
+* Real-time search and filtering
+* Live statistics dashboard
+* LocalStorage persistence
+* Responsive design
+* Elegant pastel-inspired UI
 
-```bash
-git clone https://github.com/your-username/bloom-todo.git
-cd bloom-todo
-```
+---
 
-## Run locally
+## Tech Stack
 
-Open `index.html` directly in your browser:
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* LocalStorage API
 
-```bash
-start index.html
-```
+---
 
-Or serve with a local development server:
+## Application Views
 
-```bash
-python -m http.server 8080
-```
+* Today View
+* Weekly View
+* All Tasks View
+* Completed Tasks View
 
-Then visit:
+---
+
+## Project Structure
 
 ```text
-http://localhost:8080
-```
-
----
-
-# 🖥️ Application Views
-
-| View | Purpose |
-|--------|----------|
-| Today | Shows tasks due today |
-| Weekly | Weekly task overview |
-| All Tasks | Displays every task |
-| Completed | Shows completed tasks only |
-
----
-
-# 📂 Project Structure
-
-```text
-bloom-todo/
+bloom-tasks/
 │
 ├── index.html
 ├── css/
 │   └── style.css
 ├── js/
 │   └── app.js
-├── homepage.png
-├── homepage2.png
-├── homepage3.png
+├── assets/
+│   ├── homepage.png
+│   ├── homepage1.png
+│   └── homepage2.png
 └── README.md
 ```
 
 ---
 
-# 🧠 Core Functionality
+## Run Locally
 
-### Task Management
-- Add new tasks
-- Edit existing tasks
-- Delete unwanted tasks
-- Mark tasks as completed
-
-### Organization
-- Filter by priority
-- Filter by category
-- View completed tasks separately
-- Track overdue items
-
-### Persistence
-All task data is stored in the browser using:
-
-```javascript
-localStorage
+```bash
+git clone https://github.com/palakverma-web/bloom-tasks.git
 ```
 
-Tasks remain available after page refreshes and browser restarts.
+Open `index.html` in your browser.
 
 ---
 
-# 🎨 Design Highlights
+## Author
 
-- Pastel-inspired color palette
-- Minimalist card-based layout
-- Soft shadows and rounded corners
-- Clean typography
-- Intuitive navigation sidebar
-
----
-
-# 📈 Statistics Dashboard
-
-Bloom automatically calculates:
-
-- Total Tasks
-- Pending Tasks
-- Completed Tasks
-- Overdue Tasks
-
-These metrics update in real time as task data changes.
-
----
-
-# 🛣️ Future Improvements
-
-- Drag & drop task sorting
-- Dark mode
-- Export tasks to JSON/CSV
-- Recurring tasks
-- Subtasks and checklists
-- Cloud synchronization
-- Progressive Web App (PWA)
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your branch
-5. Open a Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-<p align="center">
-Built with 🌸, creativity, and vanilla JavaScript.
-</p>
+Created by **Palak Verma**
